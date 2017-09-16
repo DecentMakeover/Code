@@ -1,0 +1,7 @@
+min = 1
+max = 6
+from random import randint
+while input('shall we see what Lady luck has in store for us?') == 'Yes':
+    print(randint(min,max))
+else:
+    pass
