@@ -1,0 +1,11 @@
+from random import randint
+num = ''
+random_number = randint(0,1000)
+while num != random_number:
+    num = int(input('Give Me a Number: '))
+    if num > random_number:
+        print ('You have a Guessed a Higher Value!Keep Trying')
+    elif num < random_number:
+        print ('You have Guessed a Lower Numver!Keep Trying')
+    else:
+        print ('You are a Genuis')
