@@ -1,0 +1,10 @@
+A,B,C = input().split()
+A = int(A)
+B = int(B)
+C = int(C)
+if A%2 != 0:
+    if (A**2-1)/2 == B:
+        if B+1 == C:
+            print ('Congratulations!, Its a Triplet')
+    else:
+        print('Too bad,Try Again')
